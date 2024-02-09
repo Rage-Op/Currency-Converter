@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #afa2ff;
+  padding: 2% 10%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.from,
+.to {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.mssg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+}
+
+.amount input {
+  background-color: transparent;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid black;
+  border-left: 2px solid transparent;
+  outline: transparent;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select {
+  background-color: #9889f9;
+  height: 36px;
+  width: 80px;
+}
+
+button {
+  background-color: #9889f9;
+  border-radius: 12px;
+  height: 56px;
+  width: 200px;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.mssg p {
+  font-weight: 700;
+}
